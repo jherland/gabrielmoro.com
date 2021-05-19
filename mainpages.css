@@ -1,0 +1,14 @@
+@import url("basic.css");
+@import url("menu.css");
+@import url("maincontent.css");
+
+
+/* Disable link border on header image */
+h1 a, h1 a:hover, h1 a:focus, h1 a:active, h1 a img {
+  border: 0;
+}
+
+/* Content area */
+#content {
+  padding: 0;
+}

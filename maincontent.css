@@ -1,0 +1,9 @@
+/* Main content (right of menu) */
+#maincontent {
+  margin: 0 0 0 275px;
+  padding: 0 28px 26px 28px;
+  border-left: 0;
+}
+#maincontent > :first-child {
+  margin-top: 0;
+}

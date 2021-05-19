@@ -1,0 +1,45 @@
+ol.entries {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-position: outside;
+  list-style-image: none;
+}
+
+.entry {
+  border-top: 1px solid #888;
+  clear: right;
+  margin-bottom: 40px;
+}
+
+.entry .publishdate {
+  float: right;
+  padding-top: 10px;
+  font-size: 11px;
+}
+
+.entry h3, .entry h4 {
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+.entry .byline {
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+}
+
+.entry .itemdata {
+  margin-top: 20px;
+}
+
+.entry div.postinfo {
+  clear: right;
+  margin: 0;
+  font-size: 11px;
+  text-align: right;
+}
+.entry div.postinfo > span {
+  margin: 0;
+  display: inline;
+}

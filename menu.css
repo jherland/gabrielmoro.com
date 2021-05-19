@@ -1,0 +1,28 @@
+/* Left-justified menu */
+#menu {
+  width: 246px;
+  float: left;
+  clear: left;
+  padding: 0;
+}
+
+/* Keep black text in menu, even if linked */
+#menu a {
+  color: #000;
+}
+
+/* Menu items in small-caps without list item markers */
+#menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-position: outside;
+  list-style-image: none;
+}
+
+/* Menu buttons do not have borders or margins */
+#menu img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}

@@ -1,0 +1,149 @@
+@import url("common.css");
+@import url("wrapper.css");
+@import url("entries.css");
+
+html, body {
+  font-size: 14px;
+  font-family: "Baskerville Old Face", "URW Palladio", "Palatino", serif;
+  background-color: #ddd;
+  color: #000;
+}
+
+/* Overriding wrapper.css */
+#wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  border: 0;
+  padding: 0;
+  background-color: #fff;
+  text-align: justify;
+}
+
+/* Put forms inside a grey box on class="withbox" */
+form.withbox {
+  margin: 0;
+  border: 1px solid #888;
+  padding: 26px 28px;
+  background: #eee;
+}
+
+/* Links should have nothing but a frame on hover/focus/active */
+a {
+  color: #993807;
+  text-decoration: none;
+}
+a:hover, a:focus, a:active {
+  text-decoration: underline;
+}
+
+/* No border on linked images, by default */
+a img {
+  border: 0;
+}
+
+/* Different font in headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Century Gothic", "Bitstream Vera Sans", "Dejavu Sans", sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
+h1 {
+  margin: 0 0 26px 0;
+  padding: 0;
+  font-size: 28px;
+  text-align: center;
+}
+h2 {
+  font-size: 24px;
+  clear: right;
+}
+h3 {
+  font-size: 20px;
+  clear: right;
+}
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+h6 { font-size: 12px; }
+
+em {
+  font-style: italic;
+}
+
+/* Content area */
+#content {
+  margin: 0;
+  padding: 0 28px;
+}
+#content img {
+  float: right;
+  clear: right;
+  margin: 0 0 26px 28px;
+  border: 1px solid #888;
+  padding: 0;
+}
+#content div.images {
+  float: right;
+  clear: right;
+  margin: 0 0 26px 28px;
+  text-align: right;
+}
+#content div.images img {
+  display: block;
+  float: none;
+  margin: 0;
+  border: 1px solid #888;
+  padding: 0;
+}
+#content div.images span.caption {
+  font-size: 11px;
+}
+
+.rule {
+  border-top: 1px solid #888;
+  padding-top: 26px;
+}
+
+ul.clean, ol.clean {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-position: outside;
+  list-style-image: none;
+}
+ul.clean li, ol.clean li {
+  margin-bottom: 10px;
+}
+
+.inpagelinks {
+  text-align: center;
+  font-size: 11px;
+}
+
+.filler {
+  clear: both;
+}
+
+/* Language selector directly above footer */
+#langselector {
+  text-align: center;
+  margin: 0;
+  padding: 5px 0;
+  font-size: 16px;
+}
+#langselector a {
+  color: #000;
+}
+
+/* Credits at bottom of main content frame in small type. */
+div#footer {
+  clear: both;
+  margin: 0;
+  border-top: 1px solid #888;
+  padding: 3px 28px;
+  text-align: center;
+  font-size: 11px;
+}
+
+div.buttons {
+  padding: 26px 0;
+}
